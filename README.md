@@ -1,6 +1,6 @@
 # Purity
 
-_Purity_ is a specialized wiki / authoring engine written in PHP. A custom variant of it is used as the back-end for [V-OS](http://v-os.ca).
+_Purity_ is a specialized wiki / authoring engine written in PHP. A custom variant of it was previously used as the back-end for [V-OS](http://v-os.ca).
 
 Text files written in the appropriate format are parsed through _Purity_'s multi-layered parser into PHP objects called `artifacts`. Each `artifact` corresponds to a page, and once populated, is parsed into its html counterpart.
 
